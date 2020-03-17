@@ -26,7 +26,7 @@ class Pessoa {
  */
 function selecionaPessoas (pessoas, idadeLimite) {
   // FIXME Bug 
-  return pessoas
+  return pessoas.filter(p => p.idade > idadeLimite)
 }
 
 // Dados fictícios
